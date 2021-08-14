@@ -1,0 +1,44 @@
+-- for SQLite ('INTEGER' on primary key instead of 
+'SERIAL'
+--this version only has 'exhibits' and 'animals' tables so far
+
+
+CREATE TABLE "exhibits" (
+	"id" INTEGER PRIMARY KEY,
+	"name" VARCHAR(40)
+);
+
+CREATE TABLE "animals" (
+	"id" INTEGER PRIMARY KEY,
+	"species" VARCHAR (30),
+	"age" VARCHAR (4),
+	"gender" VARCHAR (15),
+	"name" VARCHAR (20),
+	"exhibits_id" INT REFERENCES "exhibits"
+	);
+	
+CREATE TABLE "diets" (
+	"id" INTEGER PRIMARY KEY,
+	"type" VARCHAR(20)
+);
+
+CREATE TABLE "diets_exhibits" (
+	"id" INTEGER PRIMARY KEY,
+	"diets_id" INT REFERENCES "diets",
+	"exhibits_id" INT REFERENCES "exhibits"
+	
+);
+
+INSERT INTO "exhibits" ("name") VALUES 
+('Aquarium'),
+('Aviary'),
+('Bears'),
+('Big Cats'),
+('Prairie'),
+('Primates'),
+('Sahara');
+
+INSERT INTO "diets" ("type") VALUES
+('Carnivore'),
+('Herbavore'),
+('Omnivore');
