@@ -15619,8 +15619,18 @@
   "RootNamespace": "new_zoo_app",
   "Documents": [
     {
+      "FilePath": "/Users/patrickanderson/postprime/zoo/newZooApp/new-zoo-app/Views/Animals/Create.cshtml",
+      "TargetPath": "Views\\Animals\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/patrickanderson/postprime/zoo/newZooApp/new-zoo-app/Views/Shared/_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/patrickanderson/postprime/zoo/newZooApp/new-zoo-app/Views/Animals/Index.cshtml",
+      "TargetPath": "Views\\Animals\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15636,6 +15646,16 @@
     {
       "FilePath": "/Users/patrickanderson/postprime/zoo/newZooApp/new-zoo-app/Views/_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/patrickanderson/postprime/zoo/newZooApp/new-zoo-app/Views/Animals/Delete.cshtml",
+      "TargetPath": "Views\\Animals\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/patrickanderson/postprime/zoo/newZooApp/new-zoo-app/Views/Animals/Edit.cshtml",
+      "TargetPath": "Views\\Animals\\Edit.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15661,6 +15681,11 @@
     {
       "FilePath": "/Users/patrickanderson/postprime/zoo/newZooApp/new-zoo-app/Views/Home/Privacy.cshtml",
       "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/patrickanderson/postprime/zoo/newZooApp/new-zoo-app/Views/Animals/Details.cshtml",
+      "TargetPath": "Views\\Animals\\Details.cshtml",
       "FileKind": "mvc"
     }
   ],
